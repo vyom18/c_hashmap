@@ -1,4 +1,11 @@
 This is a simple C hashmap, using strings for the keys.
+To access a value one must know its key. HashMap is known as HashMap because it uses a technique called Hashing. Hashing is a technique of converting a large String to small String that represents the same String. A shorter value helps in indexing and faster searches.
+Performance of HashMap depends on 2 parameters:
+
+Initial Capacity
+Load Factor
+
+It is useful when we need efficient implementation of search, insert and delete operations.
 
 Originally based on code by Eliot Back at http://elliottback.com/wp/hashmap-implementation-in-c/
 Reworked by Pete Warden - http://petewarden.typepad.com/searchbrowser/2010/01/c-hashmap.html
